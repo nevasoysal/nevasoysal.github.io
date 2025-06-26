@@ -1,0 +1,62 @@
+body {
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f3f4f6;
+    color: #1f2937;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 3rem;
+    border-radius: 1.5rem;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #10b981;
+}
+
+.action-button {
+    padding: 1rem 2.5rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 1rem;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: 0.2s;
+}
+
+.button-yes {
+    background-color: #10b981;
+    color: white;
+}
+
+.button-no {
+    background-color: #ef4444;
+    color: white;
+}
+
+.recommendation-container {
+    margin-top: 2.5rem;
+    padding: 2rem;
+    background-color: #e0f2f7;
+    border-radius: 1.25rem;
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: #0284c7;
+    display: none;
+}
